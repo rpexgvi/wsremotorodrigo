@@ -1,0 +1,56 @@
+package br.com.modelo.bankofoz;
+
+public class Poupanca {
+	
+	
+	private float poupanca;
+	
+	float saldo;
+
+	// metodo
+	public float StringcreditarRendimentos() {
+		
+		return saldo = poupanca + (poupanca * 2);
+	}
+	
+	
+	
+	// get / set
+	
+	public float getPoupanca() {
+		return poupanca;
+	}
+
+	public void setPoupanca(float poupanca) {
+		this.poupanca = poupanca;
+	}
+
+	// construtor vazio
+	public Poupanca() {
+		super();
+	}
+
+	// construtor cheio
+	public Poupanca(float poupanca) {
+		super();
+		this.poupanca = poupanca;
+	}
+
+
+
+
+
+	// to string
+	@Override
+	public String toString() {
+		return "Poupanca [poupanca=" + poupanca + "]";
+	}
+	
+	
+	
+	
+	
+	
+	
+
+}

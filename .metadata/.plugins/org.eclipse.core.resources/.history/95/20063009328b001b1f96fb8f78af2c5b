@@ -1,0 +1,34 @@
+package br.com.lojaxpto.implementacao;
+
+import br.com.lojaxpto.modelo.Cliente;
+import br.com.lojaxpto.modelo.Fabricante;
+import br.com.lojaxpto.modelo.Produto;
+import br.com.lojaxpto.modelo.Venda;
+
+public class TesteVenda {
+	
+	
+	public static void main(String[] args) {
+		
+		
+		Venda venda = new Venda(1,5.0);
+		Cliente cliente = new Cliente();
+		Produto produto = new Produto();
+		Fabricante fabricante = new Fabricante();
+		
+			
+		
+System.out.println(venda.toString());
+System.out.println(cliente.toString());
+System.out.println(produto.toString());
+System.out.println(fabricante.toString());
+
+				
+				
+		
+		
+	}
+	
+	
+
+}

@@ -1,0 +1,16 @@
+package decisao;
+
+import javax.swing.JOptionPane;
+import javax.xml.ws.Endpoint;
+
+public class DesafioDecisao3 {
+	
+	public static void main(String[] args) {
+		
+		float lab = Float.parseFloat(JOptionPane.showInputDialog("Nota laboratório 1 : (peso 2) : " ));
+		float avs = Float.parseFloat(JOptionPane.showInputDialog("Nota Av. Semestral : (peso 3) " ));
+		float exf = Float.parseFloat(JOptionPane.showInputDialog("Exame final        : (peso 5) " ));
+			
+	}
+
+}

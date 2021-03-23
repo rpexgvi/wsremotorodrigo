@@ -1,0 +1,20 @@
+package br.com.implementacao.bankofoz;
+
+import br.com.modelo.bankofoz.Poupanca;
+
+public class TesteBankofoz {
+
+	
+	public static void main(String[] args) {
+		
+	
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+}

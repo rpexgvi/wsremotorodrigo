@@ -1,0 +1,42 @@
+package decisao;
+
+import javax.swing.JOptionPane;
+import javax.xml.ws.Endpoint;
+
+public class DesafioDecisao3 {
+	
+	public static void main(String[] args) {
+		
+		/*
+		 Elabore uma aplicação que leia o valor de dois números inteiros 
+		 e a operação aritmética desejada;calcule, então, a resposta adequada. 
+		 Utilize os símbolos da tabela a seguir para ler qual a operação aritmética escolhida. 
+         */
+	
+		
+		
+		int val1 = Integer.parseInt(JOptionPane.showInputDialog("Digite o valor 1 : " ));
+		int operador = Integer.parseInt(JOptionPane.showInputDialog("Digite o valor 1-soma 2-subtração 3-multiplicação 4-divisão : " ));
+		int val2 = Integer.parseInt(JOptionPane.showInputDialog("Digite o valor 2 : " ));
+						
+			
+		if (operador == 1); {
+			System.out.println("Total soma = " + (val1 + val2));
+		}
+		
+		if (operador == 2); {
+			System.out.println("Total soma = " + (val1 - val2));
+		}
+		
+		if (operador == 3); {
+			System.out.println("Total soma = " + (val1 * val2));
+		}
+		
+		if (operador == 4); {
+			System.out.println("Total soma = " + (val1 / val2));
+		}
+			
+			
+	}
+
+}

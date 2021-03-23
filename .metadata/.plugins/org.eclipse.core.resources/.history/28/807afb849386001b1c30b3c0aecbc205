@@ -1,0 +1,45 @@
+package repeticao;
+
+import javax.swing.JOptionPane;
+
+public class ExercicioRepeticao {
+	
+	public static void main(String[] args) {
+		
+		
+		int numero1;
+		int numero2;
+		int contador = 1;
+		
+		
+		numero1 = Integer.parseInt(JOptionPane.showInputDialog("Jogador 1 - Digite um numero : "));
+		numero2 = Integer.parseInt(JOptionPane.showInputDialog("Jogador 2 - Adivinhe o numero : "));
+		String resp="";
+		do {
+			
+			if (numero2 == numero1) {
+				System.out.println("Parabens, voce acertou o resultado: " + numero2);
+			}else if (numero2 < numero1) {
+				System.out.println("Chutou baixo : " + numero2);
+			}else if (numero2 > numero1) {
+				System.out.println("Chutou alto : " + numero2);
+			}
+			System.out.println("Quantidade de tentativas" + contador);
+			contador++;
+			
+		
+		} while (resp.equals("S")) ;
+		resp=JOptionPane.showInputDialog("Digite <S> para sair ").toUpperCase();	
+		
+		System.out.println("Saida");
+		
+		
+		
+		{
+		
+		
+		}
+		
+	}
+
+}

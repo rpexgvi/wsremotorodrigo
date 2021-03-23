@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="javax.swing.JPopupMenu"/>
+<fullyQualifiedTypeName name="java.lang.Short"/>
+<fullyQualifiedTypeName name="br.com.rubinhocar.modelo.Veiculo"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="br.com.gama.modelo.Curso"/>
+<fullyQualifiedTypeName name="br.com.gama.modelo.Aluno"/>
+<fullyQualifiedTypeName name="java.lang.Object"/>
+<fullyQualifiedTypeName name="br.com.gama.modelo.Professor"/>
+<fullyQualifiedTypeName name="br.com.lojaxpto.modelo.Fabricante"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="br.com.lojaxpto.modelo.Venda"/>
+<fullyQualifiedTypeName name="br.com.lojaxpto.modelo.Produto"/>
+<fullyQualifiedTypeName name="br.com.lojaxpto.modelo.Cliente"/>
+<fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
+<fullyQualifiedTypeName name="br.com.lojaxpto.modelo.PessoaFisica"/>
+<fullyQualifiedTypeName name="br.com.lojaxpto.modelo.PessoaJuridica"/>
+<fullyQualifiedTypeName name="br.com.modelo.bankofoz.Conta"/>
+<fullyQualifiedTypeName name="java.io.ObjectInputStream.GetField"/>
+<fullyQualifiedTypeName name="br.com.modelo.bankofoz.Poupanca"/>
+<fullyQualifiedTypeName name="br.com.modelo.bankofoz.util.Magica"/>
+<fullyQualifiedTypeName name="br.com.modelo.bankofoz.util.PadraoBasico"/>
+</qualifiedTypeNameHistroy>

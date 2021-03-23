@@ -1,0 +1,23 @@
+package repeticao;
+
+import javax.swing.JOptionPane;
+
+public class ExercicioRepeticao {
+	
+	public static void main(String[] args) {
+		
+		String resp="";
+		
+		
+		do {
+			String nome = JOptionPane.showInputDialog("Nome :").toLowerCase();
+			int idade = Integer.parseInt(JOptionPane.showInputDialog("Idade"));
+			
+			resp=JOptionPane.showInputDialog("Digite <S> para continuar <N> para encerrar").toUpperCase();	
+		} while (resp.equals("S")) ;
+		
+		
+		
+	}
+
+}

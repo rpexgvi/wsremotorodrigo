@@ -1,0 +1,47 @@
+package br.com.caicai.teste;
+
+import javax.swing.JOptionPane;
+
+import br.com.caicai.modelo.Elevador;
+
+public class TesteElevador {
+	
+		
+public static void main(String[] args) {
+		
+		
+		
+		//Instanciando um objeto
+			Elevador caicai = new Elevador();
+				
+			caicai.pNome(JOptionPane.showInputDialog("Nome: "));
+			caicai.pMaxPessoas((byte)15);
+			
+			System.out.println("Saida :" + caicai.retornarTudo());
+				
+		
+		
+		
+			
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+
+}

@@ -1,0 +1,19 @@
+package repeticao;
+
+import javax.swing.JOptionPane;
+
+public class WhileExemplo1 {
+	
+	
+public static void main(String[] args) {
+		
+		
+		String nome = JOptionPane.showInputDialog("Nome :").toUpperCase();
+
+		
+		System.out.println(nome);	
+		System.out.println("Qtde de caracteres: " + nome.length());
+		
+	}
+
+}

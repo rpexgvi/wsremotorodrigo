@@ -1,0 +1,58 @@
+package br.com.gama.implementacao;
+
+import br.com.gama.modelo.Aluno;
+import br.com.gama.modelo.Curso;
+import br.com.gama.modelo.Endereco;
+import br.com.gama.modelo.Professor;
+import br.com.gama.modelo.Turma;
+
+public class TesteTurma {
+	
+	
+	public static void main(String[] args) {
+		
+		Endereco endereco = new Endereco();
+		Aluno aluno = new Aluno();
+		Professor professor = new Professor();
+		Curso curso = new Curso();
+		Turma turma = new Turma();
+		
+		
+		// preenchendo endereco - poderia usar joptiopane
+		
+		endereco.setLogradouro("Av abc");
+		endereco.setNumero("655 s");
+		endereco.setComplemento("viela 2");
+		endereco.setBairro("Itaquera");
+		endereco.setCidade("São Paulo");
+		endereco.setUf("SP");
+		endereco.setCep("12121-123");
+		
+		
+		
+		
+		System.out.println(aluno.getMatricula());
+		System.out.println(aluno.getEmail());
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

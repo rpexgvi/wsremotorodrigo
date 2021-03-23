@@ -1,0 +1,45 @@
+package decisao;
+
+import javax.swing.JOptionPane;
+
+public class DesafioDecisao {
+	
+	public static void main(String[] args) {
+		
+		/*
+		 * 1. Um hotel cobra R$ 80,00 a diária e mais uma taxa de serviços. 
+		 *	A taxa de serviços é de: 
+		 *	R$ 5,50 por diária, se o número de diárias for maior que 15; >15
+		 *	R$ 6,00 por diária, se o número de diárias for igual a 15;   ==15
+		 *	R$ 8,00 por diária, se o número de diárias for menor que 15. <15
+		 *	Monte uma aplicação que apresente a conta do cliente.
+		 */
+		
+		double diaria = 80.00;
+		double tx1 = 5.50;
+		double tx2 = 6.00;
+		double tx3 = 8.00;
+		
+		short dia = Short.parseShort(JOptionPane.showInputDialog("Digite a quantidade DIAS : " ));
+		
+		if (dia>15) {
+			double total = (diaria * dia) + (tx1 * dia);
+			System.out.println("\nValor da total : " + total);
+						
+		}
+		
+		if (dia==15) {
+			double total = (diaria * dia) + (tx2 * dia);
+			System.out.println("\nValor da total : " + total);
+						
+		}
+		
+		if (dia<15) {
+			double total = (diaria * dia) + (tx3 * dia);
+			System.out.println("\nValor da total : " + total);
+						
+		}
+		
+	}
+
+}

@@ -1,0 +1,31 @@
+package repeticao;
+
+import javax.swing.JOptionPane;
+
+public class ExercicioRepeticao {
+	
+	public static void main(String[] args) {
+		
+		String resp="";
+		int contidade=0;
+		int totalidade=0;
+		
+		do {
+			String nome = JOptionPane.showInputDialog("Nome :").toLowerCase();
+			int idade = Integer.parseInt(JOptionPane.showInputDialog("Idade"));
+			if (idade > 18) {
+				contidade++;
+			}
+			
+			totalidade=idade;
+			
+			
+			resp=JOptionPane.showInputDialog("Digite <S> para continuar <N> para encerrar").toUpperCase();	
+		} while (resp.equals("S")) ;
+		
+		System.out.println("Qtde de pessoas maior de idade " + contidade);
+		System.out.println("total idade  " + totalidade);
+		
+	}
+
+}

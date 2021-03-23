@@ -1,0 +1,55 @@
+package br.com.caicai.modelo;
+
+public class Elevador {
+	
+	
+	private String nome;
+	private byte maximoPessoas;
+	private byte andarMaximo;
+	private byte andarMinimo;
+	private byte andarAtual;
+	private byte qtdePessoas;
+	
+	
+	// sintaxe dos metodos
+	// <modificador> <tipo do retorno> <nome do metodo> (<tipo> <nome> do parm)
+	
+	
+	// retornar o conteudo de todos os atributos
+			public String retornarTudo() {
+			return
+								"Nome:.....    : " + nome + "\n" + 
+								"Maximo pessoas: " + maximoPessoas + "\n" +
+								"Andar Maximo  : " + andarMaximo + "\n" +
+								"Andar Minimo. : " + andarMinimo + "\n" +
+								"Andar Atual   : " + andarAtual  + "\n" +
+								"Qtde Pessoas  : " + qtdePessoas + "\n" ;
+						
+ 										}
+
+	// inicializar		
+			// 	pNome
+			public void pNome (String param) {
+			nome = param.toUpperCase();
+			}
+			
+	// 	pMaxPessoas
+					public void pMaxPessoas (byte param) {
+					maximoPessoas = param;
+					}
+	
+					// 	pAndarMax
+					public void pAndarMax (byte param) {
+					andarMaximo = param;
+					}
+					
+					// 	pAndarMin
+					public void pAndarMin (byte param) {
+					andarMinimo = param;
+					}
+					
+			
+	
+	
+
+}

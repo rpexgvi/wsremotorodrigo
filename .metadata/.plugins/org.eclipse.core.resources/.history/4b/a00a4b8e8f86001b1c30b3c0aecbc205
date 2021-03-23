@@ -1,0 +1,14 @@
+package repeticao;
+
+public class ExercicioRepeticao {
+	
+	public static void main(String[] args) {
+		
+		
+		int numero1;
+		System.out.println("Jogador 1 - Digite um numero: ");
+		
+		
+	}
+
+}

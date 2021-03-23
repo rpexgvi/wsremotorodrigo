@@ -1,0 +1,22 @@
+package br.com.gama.util;
+
+public class Magica {
+	
+	
+	public static int s(String msg) {
+		return Integer.parseInt(s(msg));
+
+	}
+	
+	public static int s(String msg) {
+		return Integer.parseInt(s(msg));
+
+	}
+
+	public static int s(String msg) {
+		return Integer.parseInt(s(msg));
+
+	}
+
+
+}

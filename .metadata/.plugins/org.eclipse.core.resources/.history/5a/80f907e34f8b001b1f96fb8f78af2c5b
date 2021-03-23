@@ -1,0 +1,20 @@
+package br.com.modelo.bankofoz;
+
+
+// herança
+public class Poupanca extends Conta {
+	
+	// atributos privados
+	private float rendimento;
+
+
+	
+
+	
+	
+	
+	
+	
+	
+
+}

@@ -1,0 +1,18 @@
+package repeticao;
+
+import javax.swing.JOptionPane;
+
+public class WhileExemplo1 {
+	
+	
+public static void main(String[] args) {
+		
+		
+		String nome = JOptionPane.showInputDialog("Email:").toLowerCase();
+
+		
+		System.out.println(nome);	
+		
+	}
+
+}

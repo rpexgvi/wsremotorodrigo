@@ -1,0 +1,27 @@
+package br.com.gama.implementacao;
+
+import br.com.gama.modelo.Turma;
+
+public class TesteTurma2 {
+	
+	
+	
+	Turma turma = new Turma(
+			"jv01"
+			"vespertino",
+			new Curso()
+					
+					
+					)
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+}

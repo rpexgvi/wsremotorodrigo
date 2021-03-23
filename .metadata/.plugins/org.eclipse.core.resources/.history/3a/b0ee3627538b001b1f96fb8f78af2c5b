@@ -1,0 +1,49 @@
+package br.com.modelo.bankofoz;
+
+public class Corrente extends Conta {
+	
+	private float limite;
+	private float taxa;
+	
+	
+	
+	
+	// metodo sacar
+		public boolean sacar(float valor) {
+			if (getSaldo()+limite)<=valor {
+			setSaldo(getSaldo()-valor);
+			
+			}
+	}
+	
+	
+	
+	// construtor cheio
+	public Corrente(short numero, byte digito, short agencia, float saldo, Cliente cliente, float limite, float taxa) {
+		super(numero, digito, agencia, saldo, cliente);
+		this.limite = limite;
+		this.taxa = taxa;
+	}
+
+
+	// construtor vazio	
+
+	public Corrente() {
+		super();
+	}
+
+
+	// to string
+	@Override
+	public String toString() {
+		return "Corrente [limite=" + limite + ", taxa=" + taxa + ", toString()=" + super.toString() + "]";
+	}
+	
+	
+
+	
+	
+	
+	
+	
+}

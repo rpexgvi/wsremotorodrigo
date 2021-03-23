@@ -1,0 +1,25 @@
+package br.com.modelo.bankofoz.util;
+
+import javax.swing.JOptionPane;
+
+public class Magica {
+	
+	
+	Cliente cliente = new Cliente(
+			Magica.i("ID"),
+			Magica.s("Nome"),
+			Magica.s("CPF"),
+			Magica.s("Fone")
+			);
+			
+			
+	
+	Conta conta = new Conta (),
+	
+	if (Magica.b("Abrir conta corrente?"==true) {
+		conta = new Corrente(
+				
+				)
+				
+	}
+}

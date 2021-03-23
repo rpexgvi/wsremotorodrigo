@@ -1,0 +1,20 @@
+package br.com.modelo.bankofoz;
+
+public class Corrente extends Conta {
+	
+	private float limite;
+	private float taxa;
+	
+	
+	@Override
+	public String toString() {
+		return "Corrente [limite=" + limite + ", taxa=" + taxa + "]";
+	}
+
+	
+	
+	
+	
+	
+	
+}

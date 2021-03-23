@@ -1,0 +1,77 @@
+package br.com.modelo.bankofoz;
+
+public class Corrente {
+
+	private float limite;
+	private float taxa;
+	
+	
+	// metodo sacaer
+		public float StringcreditarRendimentos() {
+			
+			return saldo = poupanca + (poupanca * 2);
+		}
+	
+	// metodo debitar
+		public float StringcreditarRendimentos() {
+			
+			return saldo = poupanca + (poupanca * 2);
+		}
+	
+		// metodo aumentar limite
+		public float StringcreditarRendimentos() {
+			
+			return saldo = poupanca + (poupanca * 2);
+		}
+	
+	
+	
+	
+	// get set
+	
+	public float getLimite() {
+		return limite;
+	}
+
+	public void setLimite(float limite) {
+		this.limite = limite;
+	}
+
+	public float getTaxa() {
+		return taxa;
+	}
+
+	public void setTaxa(float taxa) {
+		this.taxa = taxa;
+	}
+
+
+	// construtor vazio
+	public Corrente() {
+		super();
+	}
+	
+	//construtor cheio
+
+	public Corrente(float limite, float taxa) {
+		super();
+		this.limite = limite;
+		this.taxa = taxa;
+	}
+
+	// to string
+	@Override
+	public String toString() {
+		return "Corrente [limite=" + limite + ", taxa=" + taxa + "]";
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

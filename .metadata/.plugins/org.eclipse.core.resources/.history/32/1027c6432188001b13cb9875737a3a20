@@ -1,0 +1,62 @@
+package br.com.gama.implementacao;
+
+import br.com.gama.modelo.Curso;
+import br.com.gama.modelo.Endereco;
+import br.com.gama.modelo.Professor;
+import br.com.gama.modelo.Turma;
+
+public class TesteTurma {
+	
+	
+	public static void main(String[] args) {
+		
+		//Endereco
+		
+		Endereco endereco = new Endereco();
+		
+		endereco.setLogradouro("Av do Cursino ");
+		endereco.setNumero("665 apt 15 ");
+		endereco.setComplemento("Zoo");
+		endereco.setBairro("Saude");
+		endereco.setCidade("Sao Paulo");
+		endereco.setUf("SP");
+		endereco.setCep("09920-140");
+		
+		//professor
+		
+		Professor professor = new Professor ();
+		
+		professor.setNome("Humbeto ");
+		professor.setFormacao("Tecnologia");
+		professor.setArea("TI");
+		professor.setEndereco(endereco); //referencia classe endereco
+		
+		
+		//curso
+		
+		Curso curso = new Curso();
+		curso.getSigla("TI");
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		Turma turma = new Turma();
+		
+		
+		aluno.setEndereco(endereco); // referencia o objeto Endereco
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

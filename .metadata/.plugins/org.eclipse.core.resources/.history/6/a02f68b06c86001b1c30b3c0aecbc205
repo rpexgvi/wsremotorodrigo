@@ -1,0 +1,32 @@
+package decisao;
+
+import javax.swing.JOptionPane;
+
+public class DesafioDecisao2 {
+	
+	public static void main(String[] args) {
+		
+		/*
+		 Elabore uma aplicação que leia o valor de dois números inteiros 
+		 e a operação aritmética desejada;calcule, então, a resposta adequada. 
+		 Utilize os símbolos da tabela a seguir para ler qual a operação aritmética escolhida. 
+         */
+
+		
+		
+		
+		int val1 = Integer.parseInt(JOptionPane.showInputDialog("Digite o valor 1 : " ));
+		int val2 = Integer.parseInt(JOptionPane.showInputDialog("Digite o valor 1 : " ));
+		String disciplina = JOptionPane.showInputDialog("Digite a operação /nsoma /nsubtracao /nmultiplicação /ndivisão:   ").toUpperCase();
+		
+		if (dia>15) {
+			double total = (diaria * dia) + (tx1 * dia);
+			System.out.println("\nValor da total : " + total);
+						
+		}
+		
+		
+		
+	}
+
+}

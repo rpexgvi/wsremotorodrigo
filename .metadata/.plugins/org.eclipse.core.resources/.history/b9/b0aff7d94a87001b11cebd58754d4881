@@ -1,0 +1,46 @@
+package br.com.rubinhocar.teste;
+
+import br.com.rubinhocar.modelo.Veiculo;
+
+public class TesteVeiculo {
+	
+	public static void main(String[] args) {
+		
+		
+		//Instanciando um objeto
+		Veiculo carro = new Veiculo();
+		
+		// método preencrer montadora
+		carro.preencherMontadora("fiat");
+		System.out.println(carro.retornarMontadora());
+			
+		// método preencrer montadora
+		carro.preencherValor("Uno");
+		System.out.println(carro.retornarModelo());
+		
+		// método preencrer montadora
+		carro.preencherValor = (1000);
+		System.out.println(carro.retornarValor());
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

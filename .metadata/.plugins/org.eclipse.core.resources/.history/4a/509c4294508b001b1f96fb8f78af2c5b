@@ -1,0 +1,29 @@
+package br.com.modelo.bankofoz;
+
+
+// herança
+public class Poupanca extends Conta {
+	
+	// atributos privados
+	private float rendimento;
+
+	@Override
+	public String toString() {
+		return "Poupanca [rendimento=" + rendimento + ", conta=" + conta + "]";
+	}
+
+	
+	
+	
+
+
+	
+
+	
+	
+	
+	
+	
+	
+
+}

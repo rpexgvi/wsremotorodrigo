@@ -1,0 +1,68 @@
+package br.com.gama.implementacao;
+
+import javax.swing.JOptionPane;
+
+import br.com.gama.modelo.Aluno;
+import br.com.gama.modelo.Endereco;
+
+public class TesteAluno {
+	
+	public static void main(String[] args) {
+		
+		
+		Endereco endereco = new Endereco();
+		endereco.setLogradouro("Av do Cursino ");
+		endereco.setNumero("665 apt 15 ");
+		endereco.setComplemento("Zoo");
+		endereco.setBairro("Saude");
+		endereco.setCidade("Sao Paulo");
+		endereco.setUf("SP");
+		endereco.setCep("09920-140");
+		
+		
+		
+		//tipo - nome = instancia criada
+		Aluno aluno = new Aluno();
+		
+		aluno.setEndereco(endereco); //referencia o objeto endereço
+		aluno.setEmail(JOptionPane.showInputDialog("Email").toLowerCase());
+		aluno.setFone(JOptionPane.showInputDialog("Fone"));
+		aluno.setNome(JOptionPane.showInputDialog("Nome"));
+		aluno.setMatricula(Integer.parseInt(JOptionPane.showInputDialog("Matricula")));
+		
+		
+		// saidas
+		System.out.println("Nome      : " + aluno.getNome());
+		System.out.println("Email     : " + aluno.getEmail());
+		System.out.println("Fone      : " + aluno.getFone());
+		System.out.println("Matricula : " + aluno.getMatricula());
+		System.out.println("Endereço  : " + endereco.getEndereco();
+		
+		//System.out.println("Nome1 - " + aluno.toString());
+		
+		// OU via set all
+		
+		Aluno aluno2 = new Aluno();
+		
+		aluno2.setAll(	
+				endereco, //referencia ao objeto endereco
+				JOptionPane.showInputDialog("Nome2 : ").toUpperCase(), 
+				Integer.parseInt(JOptionPane.showInputDialog("Matricula 2 :")), 
+				JOptionPane.showInputDialog("Email2 :").toLowerCase(), 
+				JOptionPane.showInputDialog("Fone2  : ")
+				);
+		
+		System.out.println("Nome2 - " + aluno2.toString());
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

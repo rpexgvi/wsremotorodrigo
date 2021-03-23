@@ -1,0 +1,84 @@
+package br.com.lojaxpto.modelo;
+
+public class Venda {
+	
+	private int notaFiscal;
+	private float total;
+	private Cliente cliente; //referencia
+	private Produto produto; //referencia
+	
+	
+	//construtor vazio
+			public Venda() {
+				super();
+			}
+		/// construtor cheio
+		 Venda (int notaFiscal, float total, Cliente cliente, Produto produto) {
+			 this.notaFiscal = notaFiscal;
+			 this.cliente = cliente;
+			 this.produto = produto;
+		 }
+		 
+		 
+		 //get resumo
+		 
+				
+			public String getResumo() {
+				return
+						"Numero da nota Fiscal : " + notaFiscal + 
+						"\nDescricao do Produto :" + produto.getDescricao() + 
+						"\nSituação do Estoque :"  + produto.verificarEstoque() + 
+						"\nFabricante" + produto.getFabricante().getRazaoSocial() + 
+						"\nCliente" + cliente.getNome();
+						;
+			 
+			}
+	
+	
+	
+	
+	
+	@Override
+	public String toString() {
+		return "Venda [notaFiscal=" + notaFiscal + ", total=" + total + ", cliente=" + cliente + ", produto=" + produto
+				+ "]";
+	}
+	
+	
+	// get setters
+	public int getNotaFiscal() {
+		return notaFiscal;
+	}
+	public void setNotaFiscal(int notaFiscal) {
+		this.notaFiscal = notaFiscal;
+	}
+	public float getTotal() {
+		return total;
+	}
+	public void setTotal(float total) {
+		this.total = total;
+	}
+	public Cliente getCliente() {
+		return cliente;
+	}
+	public void setCliente(Cliente cliente) {
+		this.cliente = cliente;
+	}
+	public Produto getProduto() {
+		return produto;
+	}
+	public void setProduto(Produto produto) {
+		this.produto = produto;
+	}
+	
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+}

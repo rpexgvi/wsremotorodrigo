@@ -1,0 +1,93 @@
+package br.com.rubinhocar.teste;
+
+import javax.swing.JOptionPane;
+
+import br.com.rubinhocar.modelo.Veiculo;
+
+public class TesteVeiculo {
+	
+	public static void main(String[] args) {
+		
+		
+		//Instanciando um objeto
+		Veiculo carro = new Veiculo();
+		
+		carro.preencherModelo(JOptionPane.showInputDialog("Montadora"));
+		carro.preencherModelo("uno");
+		carro.preencherValor((float)15000.00);
+		carro.preencherBasico(false, (short)200);
+		System.out.println(carro.retornarTudo());
+		System.out.println("Desconto: " + carro.retornarDesconto());
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		/*
+		 
+		
+		// método preencrer montadora
+		carro.preencherMontadora("fiat");
+		System.out.println(carro.retornarMontadora());
+			
+		// método preencrer modelo
+		carro.preencherModelo("Uno");
+		System.out.println(carro.retornarModelo());
+		
+		// método preencrer valor
+		//carro.preencherValor = 1000.00;
+		//System.out.println(carro.retornarValor());
+		
+		// método preencrer basico
+		carro.preencherBasico("sim", 200);
+		System.out.println(carro.retornarBasico));
+		
+		// Retornar tudo
+		carro.retornarTudo("teste");
+		System.out.println(carro.retornarTudo));
+		
+		// Retornar desconto
+		carro.retornarDesconto("teste");
+		System.out.println(carro.retornarDesconto));
+		
+				
+		
+		* 
+		 */
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

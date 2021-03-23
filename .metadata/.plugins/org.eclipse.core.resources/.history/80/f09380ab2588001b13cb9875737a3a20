@@ -1,0 +1,89 @@
+package br.com.gama.implementacao;
+
+import javax.swing.JOptionPane;
+
+import br.com.gama.modelo.Aluno;
+import br.com.gama.modelo.Curso;
+import br.com.gama.modelo.Endereco;
+import br.com.gama.modelo.Professor;
+import br.com.gama.modelo.Turma;
+
+public class TesteTurma {
+	
+	
+	public static void main(String[] args) {
+		
+		//Endereco
+		
+		Endereco endereco = new Endereco();
+		
+		endereco.setLogradouro("Av do Cursino ");
+		endereco.setNumero("665 apt 15 ");
+		endereco.setComplemento("Zoo");
+		endereco.setBairro("Saude");
+		endereco.setCidade("Sao Paulo");
+		endereco.setUf("SP");
+		endereco.setCep("09920-140");
+		
+		//professor
+		
+		Professor professor = new Professor ();
+		
+		professor.setNome("Humbeto ");
+		professor.setFormacao("Tecnologia");
+		professor.setArea("TI");
+		professor.setEndereco(endereco); //referencia classe endereco
+		
+		
+		//curso
+		
+		Curso curso = new Curso();
+		curso.setSigla("TEC");
+		curso.setDescricao("Curso Tec Informação");
+		curso.setAtivo(true);
+		curso.setValor(10);
+		curso.getDuracao();
+		
+		
+		//Turma
+		Turma turma = new Turma();
+			
+		turma.setSigla("ab");
+		turma.setPeriodo("10");
+		turma.setCurso(curso); //referencia a classe curso
+		turma.setAluno(aluno); // referencia a aluno
+		turma.setProfessor(professor); // referencia professor
+		
+		//Aluno
+		
+		Aluno aluno = new Aluno();
+				
+	    aluno.setEndereco(endereco); // referencia o objeto Endereco
+		aluno.setNome(JOptionPane.showInputDialog("Nome"));		
+		aluno.setEmail(JOptionPane.showInputDialog("Email").toLowerCase());
+		aluno.setFone(JOptionPane.showInputDialog("Fone"));
+		aluno.setMatricula(Integer.parseInt(JOptionPane.showInputDialog("Matricula")));
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}
